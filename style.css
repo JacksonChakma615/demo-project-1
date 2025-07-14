@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+ /* past nav section */
+nav{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-parent
+{
+     position: relative;
+
+        color: rgb(186, 186, 186);
+}
+
+.search-parent input{
+    background-color: rgb(241, 241, 241);
+    border-radius: 66px;
+    padding: 15px 30px;
+    width: 500px;
+    border: none;
+    /* height: 500px; */
+
+}
+
+.search-parent i{
+position: absolute;
+     top: 17px;
+     right: 20px;
+
+}
+
+ .nav-item{
+
+     display: flex;
+     list-style: none;
+      gap: 10px;
+ }
+
+
+  .nav-item li a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    
+   font-weight: 600px;
+   font-size: 16px;
+  
+ }
+ /* past nav section */
+
+ .contaner{ 
+    max-width: 1200px;
+    margin: auto;
+
+ }
+
+
+
+/* <!--2nd  banner section --> */
+
+
+.banner{
+
+  background:  rgb(254, 234, 233);  
+  display: flex;
+justify-content: space-between;
+gap: 5px;
+align-items: center;
+padding: 39px;
+border-radius: 10px;
+margin-top: 25px;
+}
+
+.banner h2{
+ color: rgb(31, 31, 31);
+/* font-family: Poppins; */
+font-size: 56px;
+font-weight: 700;
+
+}
+
+.banner img{
+  
+width: 402px;
+height: 378px;
+
+}
+
+.banner p{
+    color: rgb(78, 78, 78);
+}
+
+.banner h1{
+    color: rgb(31, 31, 31);
+}
+.banner-price{
+    color: rgb(255, 19, 111);
+    font-weight: 600px;
+    font-size: 48px;
+    display: block;
+    margin-bottom: 0;
+  
+}
+
+
+
+.panda-btn{
+ border-radius: 6px;
+background: linear-gradient(180.00deg,
+ rgb(255, 88, 155) -0.006%,
+rgb(255, 19, 111) 99.994%);
+padding: 10px 25px;
+border: none;
+color:white;
+font-weight: bold;
+
+}
+
+/* * <!--2nd  banner section --> */ 
+
+.categories-card-contenear{
+    display: flex;
+    gap: 26px;
+    width: 100%;
+    margin-bottom: 10px;
+  
+}
+
+
+
+
+.categories-card{
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+      flex: 1;
+}
+
+.categories-card h2{
+
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.categories-card-1{
+     background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+    display: flex;
+}
+
+
+.categories-card-2{
+
+
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+
+
+.categories-card-3{
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+
+
+/* shoes seation */
+.shoes-backpeck-parent{
+ background:rgb(244, 244, 244)
+}
+
+
+
+.shoes-seation{
+    
+    margin-top:50px ;
+    padding: 10px 0;
+ }
+
+
+.sheos-card-containear{
+
+  display: flex;  
+  justify-content: space-between;
+  gap: 15px;
+  width: 1100px;
+ margin: 0 auto;
+ padding: 10px ;
+}
+
+.shoes-card img{
+    width: 336px;
+    height: 202px;
+    
+}
+
+.shoes-card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+.card-price{
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.shoes-card .panda-btn {
+   background: black;
+}
+
+
+.see-all{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.see-all p{
+    font-size: 20px;
+    color: rgb(255, 157, 0);
+}
+
+
+/* contact-us */
+
+
+.contact-us-parent-containear{
+
+    background-color: rgb(255, 242, 241);
+    text-align: center;
+    padding: 35px 25px;
+    margin: 35px auto;
+ border-radius: 25px;
+  
+}
+
+
+.contact-inp-btn-parent input{
+        border: none;
+        padding: 15px 152px
+}
+
+.contact-inp-btn-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-inp-btn-parent .panda-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
